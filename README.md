@@ -82,3 +82,35 @@ Invoke-OperationValidation        Function  Invoke the operational tests from mo
     Passed  Scenario targeted tests:The Firewall Rules:A rule for UDP port 3389 is enabled
 
 ```
+```
+    PS>Get-OperationValidation -ModuleName OVF.Windows.Server
+
+
+    File       : LogicalDisk.tests.ps1
+    FilePath   : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2\Diagnostics\Simple\LogicalDisk.tests.ps1
+    Name       : {Logical Disks}
+    TestCases  : 
+    Type       : Simple
+    ModuleName : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2
+
+    File       : Memory.tests.ps1
+    FilePath   : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2\Diagnostics\Simple\Memory.tests.ps1
+    Name       : {Memory}
+    TestCases  : 
+    Type       : Simple
+    ModuleName : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2
+
+    File       : Network.tests.ps1
+    FilePath   : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2\Diagnostics\Simple\Network.tests.ps1
+    Name       : {Network Adapters}
+    TestCases  : 
+    Type       : Simple
+    ModuleName : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2
+
+    File       : Services.tests.ps1
+    FilePath   : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2\Diagnostics\Simple\Services.tests.ps1
+    Name       : {Operating System}
+    TestCases  : 
+    Type       : Simple
+    ModuleName : C:\Users\UserName\Documents\WindowsPowerShell\Modules\OVF.Windows.Server\1.0.2
+```
